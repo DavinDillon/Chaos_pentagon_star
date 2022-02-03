@@ -22,9 +22,9 @@ t.goto(-80,80)
 temp = 0
 turtle.title('Chaos game pentagon star')
 temp2 = 0
-for i in range(25000):
+for i in range(25000):                 # make 25000 dots (overkill)
     x = random.randint(1,5)
-    y = random.randint(0,6)
+    y = random.randint(0,6)            # set color to random rainbow color
 
     t.pencolor(colors[y])
     if temp == temp2:
