@@ -29,7 +29,7 @@ for i in range(25000):                 # make 25000 dots (overkill)
     t.pencolor(colors[y])
     if temp == temp2:
         if abs(x-temp) != 1 :  # skip if the vertex neighbors the last chosen vertex
-            if abs(x-temp)!= 4   # the one off case where abs 1 doesn't catch neighbor(1-5 or 5-1)
+            if abs(x-temp)!= 4:   # the one off case where abs 1 doesn't catch neighbor(1-5 or 5-1)
                     
                 if x == 1:            # choose direction based on vertex
                     dist = t.distance(A)
